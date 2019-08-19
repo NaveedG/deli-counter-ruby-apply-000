@@ -22,6 +22,16 @@ end
 
 take_a_number(katz_deli, "Bakr")
 
+def take_a_number2
+  counter = 0
+  counter += 1
+  puts "Welcome, your ticket number is #{counter}."
+end
+
+take_a_number2
+take_a_number2
+take_a_number2
+
 def now_serving(names)
   if names.size != 0
     puts "Currently serving #{names[0]}."
@@ -30,5 +40,6 @@ def now_serving(names)
     puts "There is nobody waiting to be served!"
   end
 end
+
 
 now_serving(katz_deli)
