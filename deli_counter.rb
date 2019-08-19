@@ -22,7 +22,7 @@ end
 
 take_a_number(katz_deli, "Bakr")
 
-counter = 0
+$counter = 0
 def take_a_number2
   counter += 1
   puts "Welcome, your ticket number is #{counter}."
